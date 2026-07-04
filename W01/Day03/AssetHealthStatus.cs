@@ -1,0 +1,1 @@
+public enum AssetHealthStatus { Optimal, Warning, Critical, Danger }

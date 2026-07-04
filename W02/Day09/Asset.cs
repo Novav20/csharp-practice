@@ -1,0 +1,1 @@
+public abstract record Asset(string AssetId, string LocationCode);

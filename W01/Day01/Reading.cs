@@ -1,0 +1,1 @@
+public record Reading(double Pressure, double Temperature, double Vibration);

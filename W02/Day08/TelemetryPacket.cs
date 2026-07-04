@@ -1,0 +1,1 @@
+public readonly record struct TelemetryPacket(string AssetId, double Temperature, double Vibration, long Timestamp);

@@ -1,0 +1,1 @@
+public record TelemetryPayload(double Temperature, double Vibration, string? StateCode);

@@ -1,0 +1,1 @@
+public record StaticEquipment(string AssetId, string LocationCode, double CapacityLiters) : Asset(AssetId, LocationCode);

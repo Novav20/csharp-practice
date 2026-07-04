@@ -1,0 +1,1 @@
+public record GasCompressor(string AssetId, string LocationCode, double Horsepower, int StageCount) : RotatingEquipment(AssetId, LocationCode, Horsepower);

@@ -1,0 +1,1 @@
+public record PumpConfig(string AssetId, double MaxPressure);

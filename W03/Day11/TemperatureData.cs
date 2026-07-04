@@ -1,0 +1,1 @@
+public readonly record struct TemperatureData(double Value, long Timestamp, string Unit) : ISensorData;

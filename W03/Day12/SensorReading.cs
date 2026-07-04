@@ -1,0 +1,3 @@
+
+public readonly record struct SensorReading(double Temperature, double Vibration, long Timestamp);
+

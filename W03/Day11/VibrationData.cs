@@ -1,0 +1,1 @@
+public readonly record struct VibrationData(double Value, long Timestamp, string Axis) : ISensorData;

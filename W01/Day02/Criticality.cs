@@ -1,0 +1,1 @@
+public enum Criticality { Low, Medium, High }

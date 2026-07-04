@@ -1,0 +1,1 @@
+public record CentrifugalPump(string AssetId, string LocationCode, double Horsepower, int ImpellerCount) : RotatingEquipment(AssetId, LocationCode, Horsepower);

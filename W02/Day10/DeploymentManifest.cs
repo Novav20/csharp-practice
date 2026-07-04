@@ -1,0 +1,1 @@
+record struct DeploymentManifest(string Zone, BaseTelemetryProfile[] Profiles);

@@ -1,0 +1,1 @@
+public record ProvisioningReport(Asset Asset, Criticality Criticality);

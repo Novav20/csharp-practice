@@ -1,0 +1,1 @@
+public abstract record RotatingEquipment(string AssetId, string LocationCode, double Horsepower) : Asset(AssetId, LocationCode);
