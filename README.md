@@ -12,7 +12,7 @@ This repository documents my progress mastering modern C# (v12/14) and .NET (v8/
 - [x] Week 1: Modern C# Refresh (Records, Pattern Matching)
 - [x] Week 2: Advanced Initialization & Null Safety
 - [x] Week 3: Intermediate .NET (Async/Await, Generics, Streaming)
-- [ ] Week 4: Backend .NET (Minimal APIs, EF Core)
+- [ ] Week 4: Intermediate .NET Deep Dive (Expression Trees & Advanced Memory)
 
 ## How to Run
 Requires .NET 8.0 SDK or later.
@@ -20,3 +20,11 @@ Requires .NET 8.0 SDK or later.
 cd W01/Day03/
 dotnet run
 ```
+
+## CLI Helper
+Use the interactive script to create a new day project or run an existing one:
+```bash
+bash scripts/csharp-journey.sh
+```
+
+When creating a project, the script asks whether to place it in the last week or create a new week, then picks the next available `DayXX` folder automatically.
