@@ -1,0 +1,1 @@
+public readonly record struct VibrationSnapshot(string AssetId, float PeakAmplitude, float RmsValue);
