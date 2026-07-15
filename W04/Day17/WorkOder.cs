@@ -1,0 +1,1 @@
+public record WorkOrder(int Id, string AssetId, WorkOrderStatus Status, int Priority, DateTime CreatedDate);
