@@ -1,0 +1,1 @@
+public readonly record struct MqttMessage(string Topic, int PayloadLenght);
